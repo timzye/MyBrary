@@ -7,7 +7,7 @@ const app = express()
 const expressLayouts = require('express-ejs-layouts')
 
 const indexRouter = require('./routes/index')
-    
+    //dodano
 app.set('view engine', 'ejs')
 app.set('views', './views')
 app.set('layout', 'layout') //we dont need to duplicate header and footers of html files
